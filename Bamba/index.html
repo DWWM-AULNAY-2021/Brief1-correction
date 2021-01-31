@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title>Les chartes</title>
+</head>
+<body>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background: rgba(208, 213, 238, 0.308);
+}
+.btn1{
+    width: 155px;
+    height: 45px;
+    border-radius: 25px;
+    background: rgba(220, 20, 60, 0.541);
+    margin-right: 350px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.9s ease-in-out;
+}
+.btn1:hover{
+    background-color: rgb(255, 0, 51);
+    box-shadow: 5px 0px  45px red;
+    transition: 0.5s ease-in-out;
+}
+
+.presentation{ 
+    margin-right: 15px;  
+    text-align: center;
+}
+header{
+    
+  margin-top: 55px;
+  margin-bottom: 55px;
+  margin-left: 250px;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ 
+}
+h1{
+    text-align: center;
+    
+}
+.charte{
+    display: block;
+    
+    
+}
+.reussite-collect{
+    border-radius: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+   border: 1px solid;
+   padding: 25px;
+   overflow: hidden;
+   height: 5px;
+   cursor: pointer;
+   transition: 0.9s ease-in-out;
+   background: rgba(145, 137, 137, 0.548);
+}
+.reussite-collect.click{
+height: 350px;
+
+transition: 0.9s ease-in-out;
+}
+
+
+
+.vivre-ens{
+     border-radius: 15px;
+     margin-left: 50px;
+     margin-right: 50px;
+      margin-bottom: 25px;
+      border: 1px solid;
+      padding: 25px;
+       margin-top: 25px;
+       overflow: hidden;
+       height: 5px;
+       cursor: pointer;
+       background: rgba(145, 137, 137, 0.548);
+       transition: 0.8s ease-in-out;
+}
+
+.vivre-ens.click {
+    height: 220px;
+    transition:  0.8s ease-in-out;
+}
+
+
+
+
+
+
+
+.covid{
+     border-radius: 15px;
+     margin-left: 50px;
+     margin-right: 50px;
+     margin-bottom: 25px;
+     border: 1px solid;
+     padding: 25px;
+      margin-top: 25px;
+      overflow: hidden;
+      height: 5px;
+      background: rgba(145, 137, 137, 0.548);
+      cursor: pointer;
+      transition: 0.8s ease-in-out;
+}
+.covid.click {
+    height: 120px;
+    transition: 0.8s ease-in-out;
+}
+
+
+
+
+
+
+
+.fun{
+     border-radius: 15px;
+     margin-left: 50px;
+     margin-right: 50px;
+    margin-bottom: 25px;
+    border: 1px solid;
+    padding: 25px;
+    overflow: hidden;
+    height: 5px;
+    background: rgba(145, 137, 137, 0.548);
+    cursor: pointer;
+    transition: 0.8s ease-in-out;
+}
+.fun.click {
+    height: 230px;
+    transition: 0.8s ease-in-out;
+}
+
+ul li{
+    font-size: 20px;
+    margin: 25px;
+    list-style: none;
+}
+
+pre{
+    font-size: 15px;
+     /* border: 1px solid; */
+     margin-left: 100px;
+     width: 650px;
+     background: #7f8285;
+     margin-bottom: 35px;
+     
+}
+h2{
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+nav{
+    margin-bottom: 55px;
+}
+.btn2{
+ text-align: center;
+ margin-bottom: 25px;
+}
+.btn-rand{
+    width: 200px;
+    height: 80px;
+    font-size: 20px;
+    background: rgba(212, 127, 144, 0.705);
+    transition: 0.5s ease-in-out ;
+    
+}
+.btn-rand:hover{
+    background: rgb(235, 37, 77);
+    box-shadow: 15px 0px 25px rgb(235, 37, 77);
+    border: 8px solid rgb(235, 37, 77);
+    transition: 0.5s ease-in-out ;
+}
+.p{
+    text-align: center;
+    opacity: 0;
+    transition: 0.9s ease-in-out;
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.p.nom{
+    opacity: 1.9;
+    transition: 0.9s ease-in-out;
+}
+
+
+@media screen and (max-width:800px) {
+    
+    .presentation {
+        margin-right: 5px;
+        text-align: center;
+    }
+
+    header {
+
+        margin-top: 55px;
+        margin-bottom: 55px;
+        margin-left: 10px;
+        display: flex;
+    }
+    .btn1 {
+        width: 155px;
+        height: 45px;
+        border-radius: 25px;
+        background: rgba(220, 20, 60, 0.541);
+        margin-right: 350px;
+        cursor: pointer;
+        transition: 0.9s ease-in-out;
+        position: absolute;
+        left: 500px;
+    }
+    .reussite-collect {
+        width: 350px;
+        overflow: scroll;
+    }
+    .vivre-ens {
+         width: 350px;
+         overflow: scroll;
+    }
+    .covid{
+         width: 350px;
+         overflow-x: scroll;
+    }
+    .fun{
+         width: 350px;
+         overflow: scroll;
+    }
+   header{
+      text-align: left;
+      width: 300px;
+      
+      
+
+   }
+    .btn1{
+       position: absolute;
+       left: 325px;
+    }   
+
+
+
+} 
+img{
+    width: 10px;
+    height: 10px;
+}
+    </style>
+<header>
+    <div class="presentation">
+        <h1>Ceci est notre charte de promo</h1>
+        <p>Ces règles nous unissent et ont été (longuement 😅) <br> débatues et votées pour pouvoir selectionner <br> celles qui nous correspondent <br> et nous unissent. Les voici, prenez plaisir à les parcourir !</p>
+    </div>
+
+    <button class="btn1">ACCÈS CHARTE</button>
+
+    </header>
+
+<section>
+   
+
+    <div class="charte">
+
+        <div class="reussite-collect">
+            <h1>RÈUSSITE COLLECTIVE &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; <button> cliquer ici</button></h1> 
+            <ul>
+                <li><img src="https://tse3.mm.bing.net/th?id=OIP.qYt_CuCCUM64nXuSSXYWYAHaHa&pid=Api&P=0&w=300&h=300" alt=""> Si j’ai fini un exercice, j’aide les autres</li>
+                <li><img src="https://tse3.mm.bing.net/th?id=OIP.qYt_CuCCUM64nXuSSXYWYAHaHa&pid=Api&P=0&w=300&h=300" alt="">
+
+ difficulté, je n’hésite pas à solliciter le groupe, à condition d’avoir suffisamment recherchEn cas deé en autonomie, si je demande de l’aide je m’engage à approfondir le sujet par moi même
+</li>
+            <li><img src="https://tse3.mm.bing.net/th?id=OIP.qYt_CuCCUM64nXuSSXYWYAHaHa&pid=Api&P=0&w=300&h=300" alt="">Je pratique la critique positive, je donne des pistes d’amélioration/une argumentation et je reste bienveillant
+</li>
+                <li><img src="https://tse3.mm.bing.net/th?id=OIP.qYt_CuCCUM64nXuSSXYWYAHaHa&pid=Api&P=0&w=300&h=300" alt="">Je partage mes sources, bonnes pratiques, trucs et astuces</li>
+                <li><img src="https://tse3.mm.bing.net/th?id=OIP.qYt_CuCCUM64nXuSSXYWYAHaHa&pid=Api&P=0&w=300&h=300" alt="">Rester positif, parler aux autres en cas de soucis</li>
+            </ul>
+        </div>
+
+    
+
+    <div class="vivre-ens">
+        <h1>VIVRE ENSEMBLE  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;  <button> cliquer ici</button></h1>
+        <ul>
+            <li><img src="https://tse3.mm.bing.net/th?id=OIP.qYt_CuCCUM64nXuSSXYWYAHaHa&pid=Api&P=0&w=300&h=300" alt="">Je fais en sorte qu’il n’y ait pas de bruits parasites (téléphone en silencieux, je ramène mes écouteurs)
+</li>
+        <li><img src="https://tse3.mm.bing.net/th?id=OIP.qYt_CuCCUM64nXuSSXYWYAHaHa&pid=Api&P=0&w=300&h=300" alt="">Je fais attention aux affaires des autres quand ils sont absents.
+</li>
+        <li><img src="https://tse3.mm.bing.net/th?id=OIP.qYt_CuCCUM64nXuSSXYWYAHaHa&pid=Api&P=0&w=300&h=300" alt="">Être soi-même</li>
+        </ul>
+    </div>
+
+    <div class="covid">
+        <h1>COVID  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;  <button> cliquer ici</button></h1>
+        <ul>
+            <li><img src="https://tse3.mm.bing.net/th?id=OIP.qYt_CuCCUM64nXuSSXYWYAHaHa&pid=Api&P=0&w=300&h=300" alt="">Je nettoie mon espace espace de travail en fin de journée 
+</li>
+    <li><img src="https://tse3.mm.bing.net/th?id=OIP.qYt_CuCCUM64nXuSSXYWYAHaHa&pid=Api&P=0&w=300&h=300" alt="">Je respecte les gestes barrières</li>
+        </ul>
+    </div>
+
+    <div class="fun">
+        <h1>POUR LE FUN  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;  <button> cliquer ici</button></h1>
+        <ul>
+            <li><img src="https://tse3.mm.bing.net/th?id=OIP.qYt_CuCCUM64nXuSSXYWYAHaHa&pid=Api&P=0&w=300&h=300" alt="">J’organise un moment de divertissement 1 fois tous les 15 jours</li>
+            <li><img src="https://tse3.mm.bing.net/th?id=OIP.qYt_CuCCUM64nXuSSXYWYAHaHa&pid=Api&P=0&w=300&h=300" alt="">Je fais un goûter en fin de semaine</li>
+            <li><img src="https://tse3.mm.bing.net/th?id=OIP.qYt_CuCCUM64nXuSSXYWYAHaHa&pid=Api&P=0&w=300&h=300" alt="">Je participe à un repas dès que les restaurants seront (officiellement) réouvert</li>
+            <li><img src="https://tse3.mm.bing.net/th?id=OIP.qYt_CuCCUM64nXuSSXYWYAHaHa&pid=Api&P=0&w=300&h=300" alt="">Je garde toujours une note d’humour pour un climat amical </li>
+        </ul>
+    </div>
+    </div>
+</section>
+
+<nav>
+    <h2>Grâce à ce règlement on obtient le code suivant :</h2>
+    <pre>
+        
+        <code class="code">
+            var compétencesDePromo = [];
+        var humeurPromo = 'Au top'; 
+        if('règles comprises' == true && 'règles appliquées' == true) {
+          compétencesDePromo.push(new Compétence()); 
+        } else {
+          humeurPromo = 'Pas top';
+        }
+        </code>
+    </pre>
+
+    <div class="btn2">
+        <button class="btn-rand">Randome Apprenant</button>
+    </div>
+
+    <div class="name">
+   
+    </div>
+</nav>
+<footer>
+   
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        let reusite = document.querySelector('.reussite-collect')
+let vivre = document.querySelector('.vivre-ens')
+let covid = document.querySelector('.covid')
+let fun = document.querySelector('.fun')
+let p = document.querySelector('.p')
+
+let btnRand = document.querySelector('.btn-rand')
+
+
+let listeEleve = ["BAMBA"," DAVID" , "AYOUB" , "Mouhammed", "LOBNA"]
+console.log(listeEleve)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+reusite.addEventListener('click', function(){
+    reusite.classList.toggle('click')
+})
+// reusite.addEventListener('mouseenter', function(){
+// reusite.classList.toggle('click')
+// })
+// reusite.addEventListener('mouseout', function(){
+// reusite.classList.remove('click')
+// })
+
+
+vivre.addEventListener('click', function(){
+    vivre.classList.toggle('click')
+})
+
+// vivre.addEventListener('mouseout', function(){
+// vivre.classList.remove('click')
+// })
+
+covid.addEventListener('click', function(){
+    covid.classList.toggle('click')
+})
+// covid.addEventListener('mouseout', function(){
+// covid.classList.remove('click')
+// })
+
+fun.addEventListener('click', function(){
+    fun.classList.toggle('click')
+})
+// fun.addEventListener('mouseout', function(){
+// fun.classList.remove('click')
+// })
+
+
+
+    </script>
+</body>
+</html>

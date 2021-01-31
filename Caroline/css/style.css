@@ -1,0 +1,53 @@
+body {
+    background-color: #f2f5f7;
+    position: relative;
+    
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+#first {
+    padding-top: 100px;
+}
+
+
+li {
+    list-style-image: url(../images/bullet.png);
+}
+
+span {
+    padding-left: 5px;
+    font-size: 14px;
+
+}
+
+#section {
+ border-style: solid;
+ background-color: white;
+ border-radius: 10px;
+ border-color: white;
+ box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
+ padding: 10px;
+ 
+}
+
+.row {
+    display: flex;
+}
+
+#btn-charte {
+    justify-self: center;
+    margin-left: 120px;
+    
+}
+
+
+footer .container {
+    display: flex;
+    justify-content: center;
+}

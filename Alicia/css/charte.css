@@ -1,0 +1,40 @@
+
+
+
+
+body{
+    background: rgb(246, 246, 252);
+}
+
+header{
+    width: 100%;
+    background-color: white;
+}
+
+.container_border
+{
+    padding: 25px;
+    border: 1px white solid;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.container{
+    box-shadow: rgb(0, 0, 1);
+}
+
+
+li {
+    list-style-image: url(../images/bullet.png);
+}’
+
+
+.btn-charte
+{
+    float: center;
+}
+
+.derouler
+{
+    font-size: 14px;
+}

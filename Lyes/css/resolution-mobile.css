@@ -1,0 +1,10 @@
+@media all and (max-device-width: 500px)
+{
+    /* Vos règles CSS pour les mobiles ici */
+    section{
+        width:90%;
+    }
+    .row1{
+        text-align: justify;
+    }
+}
