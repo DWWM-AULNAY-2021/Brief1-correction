@@ -1,33 +1,53 @@
 window.onload = function () {
+    /**Tableau de la liste d'apprenant */
     var listeApprenant = [
         'Flora',
         'Caroline',
         'Maelis',
         'Lobna',
         'Alicia',
+        'Alexis',
+        'David',
+        'Jonathan',
+        'Farima',
+        'Ayoub',
+        'Lyes',
+        'Gaelle',
+        'Muhammad',
+        'Abdoulaye',
+        'Asad',
+        'Fodie',
+        'Elyesse',
+        'Mohamed',
+        'Bamba',
+        'Ayoub'
     ]
 
-    /** PROBLEME AVEC le declenchement de setTimeout, 
-     * erreur dans la console après deux secondes : VM39106:1 Uncaught ReferenceError: Caroline is not defined
-    at <anonymous>:1:1
-     */
-    let btn = document.getElementById("btn");
-    let prenom = Math.floor(Math.random() * listeApprenant.length);
+    /** Random apprenant */
+    // let btn = document.getElementById("btn"); // Code Flora
+    const btn = document.getElementById("btn"); // Suggestion
+    /* Explication 
+      Ta constante ne va pas bouger : btn
+      Le sous objet 
+    */
+
     function affichage() {
-        setTimeout(btn.innerHTML = listeApprenant[prenom], 2000);
-        console.log(listeApprenant[prenom]);
-        btn.innerHTML = "prêt !";
+        btn.innerHTML = "Prêt !";
+        setTimeout(random, 2000);
     }
 
+    function random() {
+        let prenom = Math.floor(Math.random() * listeApprenant.length);
+        btn.innerHTML = listeApprenant[prenom];
+    }
     btn.addEventListener('click', affichage);
 
 
 
-    /** apparition du contenu */
+    /** Apparition de la liste */
     var span = document.getElementsByClassName("extend");
-    var i;
 
-    for (i = 0; i < span.length; i++) {
+    for (let i = 0; i < span.length; i++) {
         span[i].addEventListener("click", function () {
             this.classList.toggle("active");
             var ul = this.nextElementSibling;
@@ -36,10 +56,10 @@ window.onload = function () {
             } else {
                 ul.style.display = "block";
             }
+            /* Remarque Jérémy 
+             Tu aurais pu mettre ton style display block/none sur une class css 
+            */
         });
     }
 }
-
-    
-    
 
