@@ -15,7 +15,7 @@ for (i = 0; i < list.length; i++) {
 var btn = document.querySelector("button");
 
 btn.addEventListener("click", function postMessage() {
-    var apprenant = ["David", "Muhammad", "Fodie", "Alicia", "Asad", "Caroline", "Denis", "Elyesse", "Gaëlle", "Maëlys", "Farima", "Abdoulaye", "Adil", "Alexis", "Ayoub", "Bamba", "Charles", "Flora", "Jules", "Kevin", "Lobna", "Jonathan", "Lyes", "Mohamed", "Nasser"];
+    var apprenant = ["David", "Muhammad", "Fodie", "Alicia", "Asad", "Caroline", "Denis", "Elyesse", "Gaelle", "Maelys", "Farima", "Abdoulaye", "Adil", "Alexis", "Ayoub", "Bamba", "Charles", "Flora", "Jules", "Kevin", "Lobna", "Jonathan", "Lyes", "Mohamed", "Nasser"];
     var random = apprenant[Math.floor(Math.random() * apprenant.length)]
     btn.textContent = random;
 })

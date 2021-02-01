@@ -17,4 +17,4 @@ Notations technique  (note sur 3):
 Notations Compétence visée : Rappel Compétence 2, Niveau 1 
 |J'apporte les changements nécessaires| Site fonctionnel | Site adaptable |
 |:-----:|:-----:|:-----:|
-| Non | Oui | Oui | 
+| Oui | Oui | Oui | 
