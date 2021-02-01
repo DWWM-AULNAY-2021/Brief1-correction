@@ -15,9 +15,9 @@ Points dommage :
 Notations technique  (note sur 3): 
 |Respect charte visuelle |Css intégré correctement|Proprété du code|Bonus JS|Bonus site Hébérgé|
 |:-----:|:-----:|:-----:|:-----:|:-----:|
-|1,5|3|0,5|0|0|
+|2,5|3|3|0|0|
 
 Notations Compétence visée : Rappel Compétence 2, Niveau 1 
 |J'apporte les changements nécessaires| Site fonctionnel | Site adaptable |
 |:-----:|:-----:|:-----:|
-| Non | Non | Oui | 
+| Oui  | Oui | Oui | 
