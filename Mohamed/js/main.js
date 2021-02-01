@@ -14,8 +14,11 @@ for (var i = 0; i < h3.length; i++) {
 
 var button = document.querySelector("button");
 
+var promo = ["Jérémy", "Charalambos", "Abdoulaye", "Asad", "Charles", "David", "Denis", "Fodie", "Jonathan", "Mohamed", "Farima", "Adil", "Alexis", "Ayoub", "Lyas", "Elyesse", "Bamba", "Caroline", "Gaëlle", "Jules", "Loubna", "Kévin", "Maëlys", "Muhammad", "Nasser"];
+
+
 button.addEventListener("click", function postMessage() {
-    var promo = ["Jérémy", "Charalambos", "Abdoulaye", "Asad", "Charles", "David", "Denis", "Fodie", "Jonathan", "Mohamed", "Farima", "Adil", "Alexis", "Ayoub", "Lyas", "Elyesse", "Bamba", "Caroline", "Gaëlle", "Jules", "Loubna", "Kévin", "Maëlys", "Muhammad", "Nasser"];
+
     var random = promo[Math.floor(Math.random() * promo.length)];
     button.textContent = random;
 })
