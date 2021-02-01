@@ -23,20 +23,19 @@ h4 span.small {
 
 .container.card {
   width: 90%;
-  background-color:white;
-  border:10px solid white;
-  border-radius:10px; 
-  padding: 25px ;
-  margin: 25px;
-  box-shadow:25px ;
-  }
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 3rem;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1);
+}
 
-.is-ot-expand ul {
+.is-not-expand ul {
   display: none;
 }
 
 ul li { 
-  list-style-image:url(../images/bullet.png);
+  list-style-image: url("../images/bullet.png");
 } 
 
 button {
