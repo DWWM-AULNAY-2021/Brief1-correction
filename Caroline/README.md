@@ -1,7 +1,7 @@
 # Brief 1-correction Caroline
 
 Point d'amélioration : 
-- Attention aux répétitions d'id similaire
+- Attention aux répétitions d'id similaire 
 
 Bons points du code : 
 - Utilisation d'un lien hypertext pour le renvoie vers la charte
@@ -18,4 +18,4 @@ Notations technique  (note sur 3):
 Notations Compétence visée : Rappel Compétence 2, Niveau 1 
 |J'apporte les changements nécessaires| Site fonctionnel | Site adaptable |
 |:-----:|:-----:|:-----:|
-| Non | Oui | Non | 
+| Oui | Oui | Oui | 

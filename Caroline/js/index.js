@@ -1,5 +1,17 @@
 // cette première instruction signifie que toute action sera possible après le chargement de la page HTML
 window.onload = function() {
+  let hiders = document.querySelectorAll('[data-js="hide"]');
+
+Array.prototype.forEach.call(hiders, function (hider) {
+	let hiderID = hider.getAttribute('href');
+  let hiderTarget = document.querySelector(hiderID);
+  
+  hider.addEventListener('click', function (event) {
+  	event.preventDefault();
+    
+    hiderTarget.classList.toggle('-visible');
+  });
+});
     
  //   var listApprenant = ['Farima','Abdoulaye','Adil','Alexis','Alicia','Asad','Ayoub','Bamba','Caroline','Charles','David','Denis','Elyesse','Flora','Gaëlle','lobna','Jonathan','Lyes','Maëlys','Mohamed','Muhammad','Kevin','Nasser','Fodié'];
 //  console.log(listApprenant);

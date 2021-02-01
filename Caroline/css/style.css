@@ -1,3 +1,35 @@
+@media(max-width: 550px)
+{
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    div#btn-charte.one-half.column {
+        justify-content: center;
+    }
+
+    #reussite {
+        margin-top: 20px;
+    }
+
+    #reussite, 
+    #ensemble,
+    #covid,
+    #fun {
+        width: 85%;
+
+    }
+/* Entrez ici vos propriétés CSS lorsque l'utilisateur est sur smartphone */
+}
+
+@media(min-width: 768px) and (max-width: 1388px)
+{
+    
+/* Entrez ici vos propriétés CSS lorsque l'utilisateur est sur tablette */	
+}
+
+
 body {
     background-color: #f2f5f7;
     position: relative;
@@ -8,7 +40,7 @@ header {
     background-color: white;
     position: fixed;
     width: 100%;
-    z-index: 2;
+    z-index: 999;
 }
 
 #first {
@@ -26,7 +58,10 @@ span {
 
 }
 
-#section {
+#reussite, 
+#ensemble,
+#covid,
+#fun {
  border-style: solid;
  background-color: white;
  border-radius: 10px;
@@ -38,16 +73,38 @@ span {
 
 .row {
     display: flex;
+    justify-content: space-between;
 }
 
 #btn-charte {
-    justify-self: center;
-    margin-left: 120px;
+    display: flex;
+    justify-content: flex-end;
     
 }
 
+#acces {
+    align-self: flex-end;
+}
 
 footer .container {
     display: flex;
     justify-content: center;
 }
+
+.hide-box {
+    transition: .25s ease;
+    max-height: 0;
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .hide-box.-visible {
+    max-height: 99em;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  a {
+      text-decoration: none;
+      color: black;
+  }
